@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 from datetime import datetime
+from . import linkExtractor
 
 # Header to set the requests as a browser requests
 headers = {
@@ -17,7 +18,7 @@ headers = {
 reviews_url = 'https://www.amazon.in/SAMSUNG-Galaxy-Ultra-Storage-Phantom/product-reviews/B0BTYVNQG6/'
 
 # Define Page No
-len_page = 4
+len_page = 1
 
 ### <font color="red">Functions</font>
 
